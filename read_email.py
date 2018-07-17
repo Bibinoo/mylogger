@@ -30,7 +30,7 @@ class olGetNameSpace(object):
 
     def items(self):
         array_size = self._obj.Count
-        for item_index in xrange(1,array_size+1):
+        for item_index in range(1,array_size+1):
             yield (item_index, self._obj[item_index-1])
 
     def prop(self):
@@ -40,22 +40,15 @@ class olGetNameSpace(object):
 def search_item(folders, name):
     if DEBUG: browse(folders, recursive=False)
     for index, folder in olGetNameSpace(folders).items():
+        print (folder.Name, index)
         if folder.Name == name:
-            if DEBUG: print " Found %s @ %d" % (folder.Name, index)
-            return index, folder
-    return None, None
-
-def search_item(folders, name):
-    if DEBUG: browse(folders, recursive=False)
-    for index, folder in olGetNameSpace(folders).items():
-        if folder.Name == name:
-            if DEBUG: print " Found %s @ %d" % (folder.Name, index)
+            if DEBUG: print ("Found %s @ %d" % (folder.Name, index))
             return index, folder
     return None, None
 
 def search(path):
     components = path.split('/')
-    if DEBUG: print components
+    if DEBUG: print (components)
     folder = None
     root = outlook.folders
     for name in components:
@@ -69,7 +62,7 @@ def browse(folders, depth=2, recursive=True):
     if not folders:
         return
     for index, folder in olGetNameSpace(folders).items():
-        print " "*depth, u"(%i) [%s] [%s]" % (index, folder.Name, folder)
+        print (" "*depth, u"(%i) [%s] [%s]" % (index, folder.Name, folder))
         if u"%s" % folder in EXCLUSION_LIST:
             continue
         if recursive:
@@ -77,17 +70,17 @@ def browse(folders, depth=2, recursive=True):
 
 def process_messages(folder):
     if not folder:
-        print "Folder could not be found!"
+        print ("Folder could not be found!")
         return
     messages = folder.Items
     message = messages.GetFirst()
     while message:
         # Process a message
-        print "%s;%s;%s" % (message.Categories, message.Subject, message.SentOn)
+        print ("%s;%s;%s" % (message.Categories, message.Subject, message.SentOn))
         message = messages.GetNext()
 
 if __name__ == "__main__":
     #list(outlook.Folders)
-    f = search('Large Files/Projects/A Project')
-    if DEBUG and f: print "Folder name: ", f.Name
+    f = search('Inbox/1-Reference/Drafts')
+    if DEBUG and f: print ("Folder name: ", f.Name)
     process_messages(f)
