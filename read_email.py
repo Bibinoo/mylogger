@@ -14,11 +14,10 @@ __status__ = "Development"
 import win32com.client
 
 # Global variables to be deported to a configuration file
-DEBUG = False
+DEBUG = True
 EXCLUSION_LIST = [
     'SharePoint Lists - outlook',
-    'Junk Email'
-]
+    'Junk Email']
 
 # Call the MAPI function
 outlook = win32com.client.Dispatch("Outlook.Application").GetNamespace("MAPI")
@@ -81,6 +80,7 @@ def process_messages(folder):
 
 if __name__ == "__main__":
     #list(outlook.Folders)
-    f = search('Inbox/1-Reference/Drafts')
+    #f = search('Inbox/1-Reference/Drafts')
+    f = search('Inbox')
     if DEBUG and f: print ("Folder name: ", f.Name)
     process_messages(f)
