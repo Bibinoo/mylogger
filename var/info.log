@@ -167,3 +167,156 @@
 2018-08-09 10:44:12,052 - root  - INFO     - Doing something
 2018-08-09 10:44:12,052 - root  - CRITICAL - Doing something in critical mode
 2018-08-09 10:44:12,052 - root  - INFO     - Finished
+2018-08-09 15:38:53,591 - root  - INFO     - Logging configration loaded and ready to be used
+2018-08-09 15:38:53,591 - root  - INFO     - Started
+2018-08-09 15:38:53,591 - root  - WARNING  - Started in warning mode
+2018-08-09 15:38:53,591 - root  - INFO     - Doing something
+2018-08-09 15:38:53,591 - root  - CRITICAL - Doing something in critical mode
+2018-08-09 15:38:53,591 - root  - INFO     - Finished
+2018-08-09 15:41:26,902 - root  - INFO     - Logging configration loaded and ready to be used
+2018-08-09 15:41:26,902 - root  - INFO     - Started
+2018-08-09 15:41:26,918 - root  - WARNING  - Started in warning mode
+2018-08-09 15:41:26,918 - root  - INFO     - Doing something
+2018-08-09 15:41:26,918 - root  - CRITICAL - Doing something in critical mode
+2018-08-09 15:41:26,918 - root  - INFO     - Finished
+2018-08-09 15:45:56,347 - root  - INFO     - Completed configuring logger()!
+2018-08-09 15:45:56,347 - root  - INFO     - Started
+2018-08-09 15:45:56,347 - root  - WARNING  - Started in warning mode
+2018-08-09 15:45:56,347 - root  - INFO     - Doing something
+2018-08-09 15:45:56,347 - root  - CRITICAL - Doing something in critical mode
+2018-08-09 15:45:56,347 - root  - INFO     - Finished
+2018-08-09 15:46:11,799 - root  - INFO     - Completed configuring logger()!
+2018-08-09 15:46:11,799 - root  - INFO     - Started
+2018-08-09 15:46:11,799 - root  - WARNING  - Started in warning mode
+2018-08-09 15:46:11,799 - root  - INFO     - Doing something
+2018-08-09 15:46:11,799 - root  - CRITICAL - Doing something in critical mode
+2018-08-09 15:46:11,799 - root  - INFO     - Finished
+2018-08-09 15:47:31,415 - root  - INFO     - Completed configuring logger()!
+2018-08-09 15:47:31,415 - root  - INFO     - Started
+2018-08-09 15:47:31,415 - root  - WARNING  - Started in warning mode
+2018-08-09 15:47:31,415 - root  - INFO     - Doing something
+2018-08-09 15:47:31,415 - root  - CRITICAL - Doing something in critical mode
+2018-08-09 15:47:31,415 - root  - INFO     - Finished
+2018-08-09 15:49:18,263 - __main__ - INFO     - Completed configuring logger()!
+2018-08-09 15:49:18,279 - root  - INFO     - Started
+2018-08-09 15:49:18,279 - root  - WARNING  - Started in warning mode
+2018-08-09 15:49:18,279 - root  - INFO     - Doing something
+2018-08-09 15:49:18,279 - root  - CRITICAL - Doing something in critical mode
+2018-08-09 15:49:18,279 - root  - INFO     - Finished
+2018-08-09 15:50:04,241 - __main__ - INFO     - Completed configuring logger()!
+2018-08-09 15:50:04,241 - root  - INFO     - Started
+2018-08-09 15:50:04,241 - root  - WARNING  - Started in warning mode
+2018-08-09 15:50:04,241 - root  - INFO     - Doing something
+2018-08-09 15:50:04,241 - root  - CRITICAL - Doing something in critical mode
+2018-08-09 15:50:04,241 - root  - INFO     - Finished
+2018-08-09 15:51:54,649 - __main__ - INFO     - Completed configuring logger()!
+2018-08-09 15:51:54,649 - root  - INFO     - Started
+2018-08-09 15:51:54,649 - root  - WARNING  - Started in warning mode
+2018-08-09 15:51:54,649 - root  - INFO     - Doing something
+2018-08-09 15:51:54,649 - root  - CRITICAL - Doing something in critical mode
+2018-08-09 15:51:54,649 - root  - INFO     - Finished
+2018-08-09 15:52:08,463 - __main__ - INFO     - Completed configuring logger()!
+2018-08-09 15:52:08,463 - root  - INFO     - Started
+2018-08-09 15:52:08,463 - root  - WARNING  - Started in warning mode
+2018-08-09 15:54:34,101 - __main__ - INFO     - Loaded conf/log_conf.yaml logger() configuration!
+2018-08-09 15:54:34,101 - root  - INFO     - Started
+2018-08-09 15:54:34,101 - root  - WARNING  - Started in warning mode
+2018-08-09 15:54:46,710 - __main__ - INFO     - Loaded conf/log_conf.yaml logger() configuration!
+2018-08-09 15:54:46,710 - root  - INFO     - Started
+2018-08-09 15:54:46,710 - root  - WARNING  - Started in warning mode
+2018-08-09 15:54:46,710 - root  - INFO     - Doing something
+2018-08-09 15:54:46,710 - root  - CRITICAL - Doing something in critical mode
+2018-08-09 15:54:46,710 - root  - INFO     - Finished
+2018-08-09 15:55:46,501 ; __main__ ; INFO     ; Loaded conf/log_conf.yaml logger() configuration!
+2018-08-09 15:55:46,501 ; root  ; INFO     ; Started
+2018-08-09 15:55:46,501 ; root  ; WARNING  ; Started in warning mode
+2018-08-09 15:55:46,501 ; root  ; INFO     ; Doing something
+2018-08-09 15:55:46,501 ; root  ; CRITICAL ; Doing something in critical mode
+2018-08-09 15:55:46,501 ; root  ; INFO     ; Finished
+2018-08-09 15:56:55,720 	 __main__ 	 INFO     	 Loaded conf/log_conf.yaml logger() configuration!
+2018-08-09 15:56:55,720 	 root  	 INFO     	 Started
+2018-08-09 15:56:55,720 	 root  	 WARNING  	 Started in warning mode
+2018-08-09 15:56:55,720 	 root  	 INFO     	 Doing something
+2018-08-09 15:56:55,720 	 root  	 CRITICAL 	 Doing something in critical mode
+2018-08-09 15:56:55,720 	 root  	 INFO     	 Finished
+2018-08-09 15:58:37,048 	 __main__ 	 INFO     	 Loaded conf/log_conf.yaml logger configuration!
+2018-08-09 15:58:37,048 	 root  	 INFO     	 Started
+2018-08-09 15:58:37,048 	 root  	 WARNING  	 Started in warning mode
+2018-08-09 15:58:37,048 	 root  	 INFO     	 Doing something
+2018-08-09 15:58:37,048 	 root  	 CRITICAL 	 Doing something in critical mode
+2018-08-09 15:58:37,048 	 root  	 INFO     	 Finished
+2018-08-09 15:59:25,998 	 __main__ 	 INFO     	 Loaded conf/log_conf.yaml logger configuration!
+2018-08-09 15:59:25,998 	 root  	 INFO     	 Started
+2018-08-09 15:59:25,998 	 root  	 WARNING  	 Started in warning mode
+2018-08-09 15:59:25,998 	 root  	 INFO     	 Doing something
+2018-08-09 15:59:25,998 	 root  	 CRITICAL 	 Doing something in critical mode
+2018-08-09 15:59:25,998 	 root  	 INFO     	 Finished
+2018-08-09 16:11:25,971 	 __main__ 	 INFO     	 Loaded conf/log_conf.yaml logger configuration!
+2018-08-09 16:11:25,971 	 root  	 INFO     	 Started
+2018-08-09 16:11:25,971 	 root  	 WARNING  	 Started in warning mode
+2018-08-09 16:11:25,971 	 root  	 INFO     	 Doing something
+2018-08-09 16:11:25,971 	 root  	 CRITICAL 	 Doing something in critical mode
+2018-08-09 16:11:25,971 	 root  	 INFO     	 Finished
+2018-08-09 16:13:56,776 	 __main__ 	 INFO     	 Loaded conf/log_conf.yaml logger configuration!
+2018-08-09 16:13:56,776 	 root  	 INFO     	 Started
+2018-08-09 16:13:56,776 	 root  	 WARNING  	 Started in warning mode
+2018-08-09 16:13:56,776 	 root  	 INFO     	 Doing something
+2018-08-09 16:13:56,776 	 root  	 CRITICAL 	 Doing something in critical mode
+2018-08-09 16:13:56,776 	 root  	 INFO     	 Finished
+2018-08-09 16:42:35,760 	 __main__ 	 INFO     	 Loaded data/log_conf.yaml logger configuration!
+2018-08-09 16:42:35,760 	 root  	 INFO     	 Started
+2018-08-09 16:42:35,760 	 root  	 WARNING  	 Started in warning mode
+2018-08-09 16:42:35,760 	 root  	 INFO     	 Doing something
+2018-08-09 16:42:35,760 	 root  	 CRITICAL 	 Doing something in critical mode
+2018-08-09 16:42:35,760 	 root  	 INFO     	 Finished
+2018-08-09 16:43:23,642 	 __main__ 	 INFO     	 Loaded data/log_conf.yaml logger configuration!
+2018-08-09 16:43:23,642 	 root  	 INFO     	 Started
+2018-08-09 16:43:23,642 	 root  	 WARNING  	 Started in warning mode
+2018-08-09 16:43:23,642 	 root  	 INFO     	 Doing something
+2018-08-09 16:43:23,642 	 root  	 CRITICAL 	 Doing something in critical mode
+2018-08-09 16:43:23,646 	 root  	 INFO     	 Finished
+2018-08-09 17:39:16,922 	 lib.logger 	 INFO     	 Loaded data/log_conf.yaml logger configuration!
+2018-08-09 17:39:16,922 	 root  	 INFO     	 Started
+2018-08-09 17:39:16,922 	 root  	 WARNING  	 Started in warning mode
+2018-08-09 17:39:16,922 	 root  	 INFO     	 Doing something
+2018-08-09 17:39:16,922 	 root  	 CRITICAL 	 Doing something in critical mode
+2018-08-09 17:39:16,922 	 root  	 INFO     	 Finished
+2018-08-09 20:05:54,858 	 lib.logger 	 INFO     	 Loaded data/log_conf.yaml logger configuration!
+2018-08-09 20:05:54,858 	 root  	 INFO     	 Started
+2018-08-09 20:05:54,858 	 root  	 WARNING  	 Started in warning mode
+2018-08-09 20:05:54,858 	 root  	 INFO     	 Doing something
+2018-08-09 20:05:54,858 	 root  	 CRITICAL 	 Doing something in critical mode
+2018-08-09 20:05:54,858 	 root  	 INFO     	 Finished
+2018-08-09 20:10:32,892 	 lib.logger 	 INFO     	 Loaded data/log_conf.yaml logger configuration!
+2018-08-09 20:10:32,892 	 root  	 INFO     	 Started
+2018-08-09 20:10:32,908 	 root  	 WARNING  	 Started in warning mode
+2018-08-09 20:10:32,908 	 root  	 INFO     	 Doing something
+2018-08-09 20:10:32,908 	 root  	 CRITICAL 	 Doing something in critical mode
+2018-08-09 20:10:32,908 	 root  	 INFO     	 Finished
+2018-08-09 20:11:02,907 	 root  	 INFO     	 Loaded data/log_conf.yaml logger configuration!
+2018-08-09 20:11:02,907 	 root  	 INFO     	 Started
+2018-08-09 20:11:02,907 	 root  	 WARNING  	 Started in warning mode
+2018-08-09 20:11:02,907 	 root  	 INFO     	 Doing something
+2018-08-09 20:11:02,908 	 root  	 CRITICAL 	 Doing something in critical mode
+2018-08-09 20:11:02,908 	 root  	 INFO     	 Finished
+2018-08-09 20:45:20,020 	 root  	 INFO     	 Started
+2018-08-09 20:45:20,020 	 root  	 WARNING  	 Started in warning mode
+2018-08-09 20:45:20,020 	 root  	 INFO     	 Doing something
+2018-08-09 20:45:20,020 	 root  	 CRITICAL 	 Doing something in critical mode
+2018-08-09 20:45:20,020 	 root  	 INFO     	 Finished
+2018-08-09 20:45:30,896 	 root  	 INFO     	 Started
+2018-08-09 20:45:30,896 	 root  	 WARNING  	 Started in warning mode
+2018-08-09 20:45:30,896 	 root  	 INFO     	 Doing something
+2018-08-09 20:45:30,896 	 root  	 CRITICAL 	 Doing something in critical mode
+2018-08-09 20:45:30,896 	 root  	 INFO     	 Finished
+2018-08-09 20:46:31,414 	 root  	 INFO     	 Started
+2018-08-09 20:46:31,414 	 root  	 WARNING  	 Started in warning mode
+2018-08-09 20:46:31,414 	 root  	 INFO     	 Doing something
+2018-08-09 20:46:31,414 	 root  	 CRITICAL 	 Doing something in critical mode
+2018-08-09 20:46:31,414 	 root  	 INFO     	 Finished
+2018-08-09 20:46:54,974 	 lib.logger 	 INFO     	 Loaded data/log_conf.yaml logger configuration!
+2018-08-09 20:46:54,989 	 root  	 INFO     	 Started
+2018-08-09 20:46:54,989 	 root  	 WARNING  	 Started in warning mode
+2018-08-09 20:46:54,989 	 root  	 INFO     	 Doing something
+2018-08-09 20:46:54,989 	 root  	 CRITICAL 	 Doing something in critical mode
+2018-08-09 20:46:54,989 	 root  	 INFO     	 Finished
