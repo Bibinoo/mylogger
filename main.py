@@ -1,24 +1,24 @@
-import os
 import sys
-import logging.config
-import yaml
-import lib.logger
+import logging.config # to configure mylogger
+import lib.logger # path of the logger module
 
 # sys.path.append("C:\\Users\\denny_000\\Documents\\GitHub\\outlook")
-print(sys.path[0])
+PACKAGE_PATH = sys.path[0] # Retrieve the path of the current module
+LOGGER_CONF_FILE = "conf/log_conf.yaml"
 
 def do_something():
-    logging.info('Doing something')
-    logging.debug('Doing something in debug mode')
-    logging.critical('Doing something in critical mode')
+    mylogger.info('Doing something')
+    mylogger.debug('Doing something in debug mode')
+    mylogger.critical('Doing something in critical mode')
 
 def main():
-    logging.info('Started')
-    logging.debug('Started in debug mode')
-    logging.warning('Started in warning mode')
+    mylogger.info('Started')
+    mylogger.debug('Started in debug mode')
+    mylogger.warning('Started in warning mode')
     do_something()
-    logging.info('Finished')
+    mylogger.info('Finished')
 
 if __name__ == '__main__':
-    lib.logger.setup_logging()
+    lib.logger.setup_logging(PACKAGE_PATH, LOGGER_CONF_FILE)
+    mylogger = logging.getLogger(__name__)
     main()

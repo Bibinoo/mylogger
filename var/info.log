@@ -320,3 +320,121 @@
 2018-08-09 20:46:54,989 	 root  	 INFO     	 Doing something
 2018-08-09 20:46:54,989 	 root  	 CRITICAL 	 Doing something in critical mode
 2018-08-09 20:46:54,989 	 root  	 INFO     	 Finished
+2018-08-10 07:46:53,681 	 lib.logger 	 INFO     	 Loaded data/log_conf.yaml logger configuration!
+2018-08-10 07:46:53,681 	 root  	 INFO     	 Started
+2018-08-10 07:46:53,681 	 root  	 WARNING  	 Started in warning mode
+2018-08-10 07:46:53,681 	 root  	 INFO     	 Doing something
+2018-08-10 07:46:53,681 	 root  	 CRITICAL 	 Doing something in critical mode
+2018-08-10 07:46:53,681 	 root  	 INFO     	 Finished
+2018-08-10 07:47:31,794 	 root  	 INFO     	 Loaded data/log_conf.yaml logger configuration!
+2018-08-10 07:47:31,794 	 root  	 INFO     	 Started
+2018-08-10 07:47:31,794 	 root  	 WARNING  	 Started in warning mode
+2018-08-10 07:47:31,794 	 root  	 INFO     	 Doing something
+2018-08-10 07:47:31,794 	 root  	 CRITICAL 	 Doing something in critical mode
+2018-08-10 07:47:31,794 	 root  	 INFO     	 Finished
+2018-08-10 20:18:51,518 	 lib.logger 	 INFO     	 Loaded conf/log_conf.yaml logger configuration!
+2018-08-10 20:18:51,518 	 root  	 INFO     	 Started
+2018-08-10 20:18:51,518 	 root  	 WARNING  	 Started in warning mode
+2018-08-10 20:18:51,518 	 root  	 INFO     	 Doing something
+2018-08-10 20:18:51,518 	 root  	 CRITICAL 	 Doing something in critical mode
+2018-08-10 20:18:51,518 	 root  	 INFO     	 Finished
+2018-08-10 20:21:40,751 	 lib.logger 	 INFO     	 Loaded conf/log_conf.yaml logger configuration!
+2018-08-10 20:21:40,751 	 root  	 INFO     	 Started
+2018-08-10 20:21:40,751 	 root  	 WARNING  	 Started in warning mode
+2018-08-10 20:21:40,751 	 root  	 INFO     	 Doing something
+2018-08-10 20:21:40,751 	 root  	 CRITICAL 	 Doing something in critical mode
+2018-08-10 20:21:40,751 	 root  	 INFO     	 Finished
+2018-08-10 22:00:02,454 	 lib.logger 	 INFO     	 Loaded conf/log_conf.yaml logger configuration!
+2018-08-10 22:00:02,454 	 root  	 INFO     	 Started
+2018-08-10 22:00:02,454 	 root  	 WARNING  	 Started in warning mode
+2018-08-10 22:00:02,454 	 root  	 INFO     	 Doing something
+2018-08-10 22:00:02,454 	 root  	 CRITICAL 	 Doing something in critical mode
+2018-08-10 22:00:02,454 	 root  	 INFO     	 Finished
+2018-08-10 22:00:08,924 	 lib.logger 	 INFO     	 Loaded conf/log_conf.yaml logger configuration!
+2018-08-10 22:00:08,924 	 root  	 INFO     	 Started
+2018-08-10 22:00:08,924 	 root  	 WARNING  	 Started in warning mode
+2018-08-10 22:00:08,924 	 root  	 INFO     	 Doing something
+2018-08-10 22:00:08,924 	 root  	 CRITICAL 	 Doing something in critical mode
+2018-08-10 22:00:08,940 	 root  	 INFO     	 Finished
+2018-08-10 22:00:50,035 	 lib.logger 	 INFO     	 Loaded conf/log_conf.yaml logger configuration!
+2018-08-10 22:00:50,035 	 __main__ 	 INFO     	 Started
+2018-08-10 22:00:50,035 	 root  	 WARNING  	 Started in warning mode
+2018-08-10 22:00:50,035 	 __main__ 	 INFO     	 Doing something
+2018-08-10 22:00:50,035 	 root  	 CRITICAL 	 Doing something in critical mode
+2018-08-10 22:00:50,035 	 root  	 INFO     	 Finished
+2018-08-10 22:01:20,300 	 lib.logger 	 INFO     	 Loaded conf/log_conf.yaml logger configuration!
+2018-08-10 22:01:20,300 	 root  	 WARNING  	 Started in warning mode
+2018-08-10 22:01:20,300 	 root  	 CRITICAL 	 Doing something in critical mode
+2018-08-10 22:01:20,300 	 root  	 INFO     	 Finished
+2018-08-10 22:03:34,459 	 lib.logger 	 INFO     	 Loaded conf/log_conf.yaml logger configuration!
+2018-08-10 22:03:34,459 	 root  	 WARNING  	 Started in warning mode
+2018-08-10 22:03:34,459 	 root  	 CRITICAL 	 Doing something in critical mode
+2018-08-10 22:03:34,459 	 root  	 INFO     	 Finished
+2018-08-10 22:03:48,620 	 root  	 WARNING  	 Started in warning mode
+2018-08-10 22:03:48,620 	 root  	 CRITICAL 	 Doing something in critical mode
+2018-08-10 22:03:48,620 	 root  	 INFO     	 Finished
+2018-08-10 22:04:17,858 	 lib.logger 	 INFO     	 Loaded conf/log_conf.yaml logger configuration!
+2018-08-10 22:04:17,858 	 root  	 WARNING  	 Started in warning mode
+2018-08-10 22:04:17,858 	 root  	 CRITICAL 	 Doing something in critical mode
+2018-08-10 22:04:17,858 	 root  	 INFO     	 Finished
+2018-08-10 22:04:49,849 	 lib.logger 	 INFO     	 Loaded conf/log_conf.yaml logger configuration!
+2018-08-10 22:04:49,849 	 root  	 WARNING  	 Started in warning mode
+2018-08-10 22:04:49,849 	 root  	 CRITICAL 	 Doing something in critical mode
+2018-08-10 22:04:49,849 	 root  	 INFO     	 Finished
+2018-08-10 22:05:29,970 	 root  	 INFO     	 Loaded conf/log_conf.yaml logger configuration!
+2018-08-10 22:05:29,970 	 root  	 WARNING  	 Started in warning mode
+2018-08-10 22:05:29,970 	 root  	 CRITICAL 	 Doing something in critical mode
+2018-08-10 22:05:29,970 	 root  	 INFO     	 Finished
+2018-08-10 22:05:44,816 	 lib.logger 	 INFO     	 Loaded conf/log_conf.yaml logger configuration!
+2018-08-10 22:05:44,816 	 root  	 WARNING  	 Started in warning mode
+2018-08-10 22:05:44,816 	 root  	 CRITICAL 	 Doing something in critical mode
+2018-08-10 22:05:44,816 	 root  	 INFO     	 Finished
+2018-08-10 22:06:58,558 	 lib.logger 	 INFO     	 Loaded conf/log_conf.yaml logger configuration!
+2018-08-10 22:06:58,558 	 root  	 WARNING  	 Started in warning mode
+2018-08-10 22:06:58,558 	 root  	 CRITICAL 	 Doing something in critical mode
+2018-08-10 22:06:58,558 	 root  	 INFO     	 Finished
+2018-08-10 22:07:09,177 	 lib.logger 	 INFO     	 Loaded conf/log_conf.yaml logger configuration!
+2018-08-10 22:07:09,177 	 __main__ 	 INFO     	 Started
+2018-08-10 22:07:09,177 	 root  	 WARNING  	 Started in warning mode
+2018-08-10 22:07:09,177 	 __main__ 	 INFO     	 Doing something
+2018-08-10 22:07:09,177 	 root  	 CRITICAL 	 Doing something in critical mode
+2018-08-10 22:07:09,177 	 root  	 INFO     	 Finished
+2018-08-10 22:08:00,031 	 lib.logger 	 INFO     	 Loaded conf/log_conf.yaml logger configuration!
+2018-08-10 22:08:00,031 	 root  	 WARNING  	 Started in warning mode
+2018-08-10 22:08:00,031 	 root  	 CRITICAL 	 Doing something in critical mode
+2018-08-10 22:08:00,031 	 root  	 INFO     	 Finished
+2018-08-10 22:08:01,861 	 lib.logger 	 INFO     	 Loaded conf/log_conf.yaml logger configuration!
+2018-08-10 22:08:01,861 	 root  	 WARNING  	 Started in warning mode
+2018-08-10 22:08:01,861 	 root  	 CRITICAL 	 Doing something in critical mode
+2018-08-10 22:08:01,861 	 root  	 INFO     	 Finished
+2018-08-10 22:08:09,985 	 lib.logger 	 INFO     	 Loaded conf/log_conf.yaml logger configuration!
+2018-08-10 22:08:09,985 	 __main__ 	 INFO     	 Started
+2018-08-10 22:08:09,985 	 root  	 WARNING  	 Started in warning mode
+2018-08-10 22:08:09,985 	 __main__ 	 INFO     	 Doing something
+2018-08-10 22:08:09,985 	 root  	 CRITICAL 	 Doing something in critical mode
+2018-08-10 22:08:09,985 	 root  	 INFO     	 Finished
+2018-08-10 22:08:53,849 	 root  	 WARNING  	 Started in warning mode
+2018-08-10 22:08:53,849 	 root  	 CRITICAL 	 Doing something in critical mode
+2018-08-10 22:08:53,849 	 root  	 INFO     	 Finished
+2018-08-10 22:09:05,400 	 root  	 WARNING  	 Started in warning mode
+2018-08-10 22:09:05,401 	 root  	 CRITICAL 	 Doing something in critical mode
+2018-08-10 22:09:05,402 	 root  	 INFO     	 Finished
+2018-08-10 22:09:12,557 	 root  	 WARNING  	 Started in warning mode
+2018-08-10 22:09:12,557 	 root  	 CRITICAL 	 Doing something in critical mode
+2018-08-10 22:09:12,557 	 root  	 INFO     	 Finished
+2018-08-10 22:09:45,936 	 root  	 WARNING  	 Started in warning mode
+2018-08-10 22:09:45,936 	 root  	 CRITICAL 	 Doing something in critical mode
+2018-08-10 22:09:45,936 	 root  	 INFO     	 Finished
+2018-08-11 21:24:16,196 	 lib.logger 	 INFO     	 Loaded C:\Users\denny_000\Documents\GitHub\outlook\conf/log_conf.yaml logger configuration!
+2018-08-11 21:31:52,552 	 lib.logger 	 INFO     	 Loaded C:\Users\denny_000\Documents\GitHub\outlook\conf/log_conf.yaml configuration file for logger!
+2018-08-12 06:47:18,862 	 lib.logger 	 INFO     	 Loaded C:\Users\denny_000\Documents\GitHub\outlook\conf/log_conf.yaml configuration file for logger!
+2018-08-12 17:21:28,605 	 lib.logger 	 INFO     	 Loaded C:\Users\denny_000\Documents\GitHub\outlook\conf/log_conf.yaml configuration file for logger!
+2018-08-12 17:22:58,983 	 lib.logger 	 INFO     	 Loaded C:\Users\denny_000\Documents\GitHub\outlook\conf/log_conf.yaml configuration file for logger!
+2018-08-12 17:30:13,484 	 lib.logger 	 INFO     	 Loaded C:\Users\denny_000\Documents\GitHub\outlook\conf/log_conf.yaml configuration file for logger!
+2018-08-12 17:30:44,628 	 lib.logger 	 INFO     	 Loaded C:\Users\denny_000\Documents\GitHub\outlook\conf/log_conf.yaml configuration file for logger!
+2018-08-12 17:31:47,892 	 lib.logger 	 INFO     	 Loaded C:\Users\denny_000\Documents\GitHub\outlook\conf/log_conf.yaml configuration file for logger!
+2018-08-12 17:32:01,200 	 lib.logger 	 INFO     	 Loaded C:\Users\denny_000\Documents\GitHub\outlook\conf/log_conf.yaml configuration file for logger!
+2018-08-12 17:32:39,606 	 lib.logger 	 INFO     	 Loaded C:\Users\denny_000\Documents\GitHub\outlook\conf/log_conf.yaml configuration file for logger!
+2018-08-12 17:33:15,898 	 lib.logger 	 INFO     	 Loaded C:\Users\denny_000\Documents\GitHub\outlook\conf/log_conf.yaml configuration file for logger!
+2018-08-12 18:10:05,514 	 lib.logger 	 INFO     	 Loaded C:\Users\denny_000\Documents\GitHub\outlook\conf/log_conf.yaml configuration file for logger!
+2018-08-13 07:46:57,324 	 lib.logger 	 INFO     	 Loaded C:\Users\denny_000\Documents\GitHub\outlook\conf/log_conf.yaml configuration file for logger!

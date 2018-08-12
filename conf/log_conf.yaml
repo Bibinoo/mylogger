@@ -38,10 +38,15 @@ handlers:
         encoding: utf8
 
 loggers:
-    my_module:
-        level: ERROR
+    __main__: # name of your module
+        level: INFO
         handlers: [console]
-        propagate: yes
+        propagate: no
+
+    lib.logger: # name of your module
+        level: INFO
+        handlers: [console, info_file_handler, error_file_handler]
+        propagate: no
 
 root:
     level: INFO
