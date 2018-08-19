@@ -29,34 +29,52 @@ class WorkingObjDict():
         return self.__dict__
 
 class ObjDict(dict):
-    def replace_value(self, key_searched, new_value):
+    def change_value(self, key_searched, change_value, function_name=None):
+        # parsing the dictionary
         for k, value in self.items():
+            # checking if the value is a dictionary
             if isinstance(value, dict):
-                self[k] = ObjDict(value).replace_value(key_searched, new_value)
+                # recursive function to find searched keys
+                self[k] = ObjDict(value).change_value(key_searched, change_value, function_name)
         if key_searched in self:
-            # replace the value
-            self[key_searched] = new_value
+            # if no other method than change_value is called
+            if function_name is None:
+                # replace the value of the searched key from a dictionary
+                print('function_name', function_name)
+                self[key_searched] = change_value
+            # if method insert_value is called
+            elif function_name == 'insert_value':
+                # insert a string before the value of the searched key
+                # from a dictionary
+                self[key_searched] = change_value + self[key_searched]
+            # if method append_value is called
+            elif function_name == 'append_value':
+                # append a string after the value of the searched key
+                # from a dictionary
+                self[key_searched] = self[key_searched] + change_value
         return self
 
-# Recursively replace dictionary values with matching key
-def replace_dictitem(obj, key, new_value):
-    for k, v in obj.items():
-        if isinstance(v, dict):
-            obj[k] = replace_dictitem(v, key, new_value)
-    if key in obj:
-        print(obj[key])
-        # replace the value
-        obj[key] = new_value
-        print(obj[key])
-        # insert a value
-        obj[key] = 'insert value: ' + new_value
-        print(obj[key])
-        # append a value
-        obj[key] = new_value + ' :append value'
-        # delete the key
-        # del obj[key]
-        print(obj[key])
-    return obj
+    # insert a string in the value of a key in a nested dictionary
+    def insert_value(self, key_searched, string_to_insert):
+        # store the function name in a variable to simplify the code reading
+        function_name = ObjDict.insert_value.__name__
+        # simplify the code reading
+        change_value = string_to_insert
+        # assign the result of recursive function
+        self = ObjDict.change_value(self, key_searched, change_value,
+               function_name)
+        return self
+
+    # append a string in the value of a key in a nested dictionary
+    def append_value(self, key_searched, string_to_append):
+        # store the function name in a variable to simplify the code reading
+        function_name = ObjDict.append_value.__name__
+        # simplify the code reading
+        change_value = string_to_append
+        # assign the result of recursive function
+        self = ObjDict.change_value(self, key_searched, change_value,
+               function_name)
+        return self
 
 # to implement in the function
 def get_yaml_config(path):
@@ -90,8 +108,10 @@ def setup_logging(default_path = 'conf/', default_logconf = 'log_conf.yaml' ,
 
         # Replace the value of the key filename by default path
         instance = ObjDict(config)
-        config = instance.replace_value('filename', default_path + "\\")
-        print(config)
+        config = instance.insert_value('filename', default_path + "\\")
+        # check if the path where logs needs to be written exists
+        
+
         logging.getLogger(__name__).info('Loaded ' + logconf_path +
             ' configuration file for logger!')
     else:
