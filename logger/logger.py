@@ -1,7 +1,6 @@
 import os, sys
 import logging.config
 import yaml
-#import curses
 
 print (os.path.dirname(__file__))
 
@@ -32,21 +31,25 @@ class ObjDict(dict):
     def change_value(self, key_searched, change_value, function_name=None):
         # parsing the dictionary
         for k, value in self.items():
+
             # checking if the value is a dictionary
             if isinstance(value, dict):
                 # recursive function to find searched keys
                 self[k] = ObjDict(value).change_value(key_searched, change_value, function_name)
+
         if key_searched in self:
+
             # if no other method than change_value is called
             if function_name is None:
                 # replace the value of the searched key from a dictionary
-                print('function_name', function_name)
                 self[key_searched] = change_value
+
             # if method insert_value is called
             elif function_name == 'insert_value':
                 # insert a string before the value of the searched key
                 # from a dictionary
                 self[key_searched] = change_value + self[key_searched]
+
             # if method append_value is called
             elif function_name == 'append_value':
                 # append a string after the value of the searched key
@@ -104,14 +107,16 @@ def setup_logging(default_path = 'conf/', default_logconf = 'log_conf.yaml' ,
     if os.path.exists(logconf_path):
         with open(logconf_path, 'rt') as file:
             config = yaml.safe_load(file.read())
-        logging.config.dictConfig(config)
 
         # Replace the value of the key filename by default path
         instance = ObjDict(config)
+        print("default_path", default_path)
         config = instance.insert_value('filename', default_path + "\\")
-        # check if the path where logs needs to be written exists
-        
 
+        # loading the configuration dictionary
+        logging.config.dictConfig(config)
+
+        # check if the path where logs needs to be written exists
         logging.getLogger(__name__).info('Loaded ' + logconf_path +
             ' configuration file for logger!')
     else:

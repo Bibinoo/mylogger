@@ -43,7 +43,7 @@ loggers:
         handlers: [console]
         propagate: no
 
-    lib.logger: # name of your module
+    logger.logger: # name of your module
         level: INFO
         handlers: [console, info_file_handler, error_file_handler]
         propagate: no
