@@ -21,7 +21,7 @@ handlers:
 
     info_file_handler:
         class: logging.handlers.RotatingFileHandler
-        level: INFO
+        level: DEBUG
         formatter: simple
         filename: var/info.log
         maxBytes: 10485760 # 10MB
@@ -30,7 +30,7 @@ handlers:
 
     error_file_handler:
         class: logging.handlers.RotatingFileHandler
-        level: ERROR
+        level: CRITICAL
         formatter: simple
         filename: var/errors.log
         maxBytes: 10485760 # 10MB
@@ -43,7 +43,7 @@ loggers:
         handlers: [console]
         propagate: no
 
-    logger.logger: # name of your module
+    logger: # name of your module
         level: INFO
         handlers: [console, info_file_handler, error_file_handler]
         propagate: no

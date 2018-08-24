@@ -110,8 +110,12 @@ def setup_logging(default_path = 'conf/', default_logconf = 'log_conf.yaml' ,
 
         # Replace the value of the key filename by default path
         instance = ObjDict(config)
-        print("default_path", default_path)
+        # print("default_path", default_path)
         config = instance.insert_value('filename', default_path + "\\")
+
+        # Amend the logging level to DEBUG
+        if default_level == "logging.DEBUG":
+            config = instance.change_value('level', "DEBUG")
 
         # loading the configuration dictionary
         logging.config.dictConfig(config)
@@ -119,6 +123,10 @@ def setup_logging(default_path = 'conf/', default_logconf = 'log_conf.yaml' ,
         # check if the path where logs needs to be written exists
         logging.getLogger(__name__).info('Loaded ' + logconf_path +
             ' configuration file for logger!')
+
+        # print out the configuration in debug mode only
+        logging.getLogger(__name__).debug(config)
+
     else:
         # Configure basics when the configuration file cannot be loaded
         logging.basicConfig(level=default_level)
