@@ -6,9 +6,9 @@ import logging.config # to configure mylogger
 # importing the logger module --------------------------------------------------
 
 from config import LOGGER # importing config.py as a conf module
-LOGGER_PATH_FOLDER = LOGGER.PATH_FOLDER # setting the global variable
-LOGGER_CONF_FILE = LOGGER.CONF_FILE # setting the global variable
-LOGGER_LOGGING_LEVEL = LOGGER.LOGGING_LEVEL # setting the global variable
+LOGGER_PATH_FOLDER = LOGGER.PATH_FOLDER # setting the logger package path as a global variable
+LOGGER_CONF_FILE = LOGGER.CONF_FILE # setting the logger configuration file as a global variable
+LOGGER_LOGGING_LEVEL = LOGGER.LOGGING_LEVEL # setting the default logging lever as a global variable
 
 sys.path.append(LOGGER_PATH_FOLDER)
 from loggerpkg import myloggerscript # import module myloggerscript (pythin script) from loggerpkg package (folder)
